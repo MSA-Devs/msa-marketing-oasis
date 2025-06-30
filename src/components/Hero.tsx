@@ -51,45 +51,20 @@ const Hero = () => {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 gap-6">
-            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
-              <div className="flex items-start space-x-4">
-                <div className="p-3 bg-blue-500/20 rounded-lg">
-                  <Users className="h-6 w-6 text-blue-300" />
+          <div className="relative">
+            <img 
+              src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&h=400&fit=crop&crop=center" 
+              alt="Marketing students collaborating" 
+              className="rounded-2xl shadow-2xl w-full h-[400px] object-cover"
+            />
+            <div className="absolute -bottom-6 -left-6 bg-white/10 backdrop-blur-sm rounded-xl p-4 border border-white/20">
+              <div className="flex items-center space-x-3">
+                <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-teal-500 rounded-full flex items-center justify-center">
+                  <Users className="h-6 w-6 text-white" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-lg mb-2">Off-the-shelf tools</h3>
-                  <p className="text-gray-300 text-sm">
-                    Our marketing team has a vast selection of industry-standard tools and resources to help you excel.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
-              <div className="flex items-start space-x-4">
-                <div className="p-3 bg-teal-500/20 rounded-lg">
-                  <Target className="h-6 w-6 text-teal-300" />
-                </div>
-                <div>
-                  <h3 className="font-semibold text-lg mb-2">Low-code platform</h3>
-                  <p className="text-gray-300 text-sm">
-                    Create amazing marketing campaigns using modern digital tools and platforms with minimal technical barriers.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
-              <div className="flex items-start space-x-4">
-                <div className="p-3 bg-purple-500/20 rounded-lg">
-                  <TrendingUp className="h-6 w-6 text-purple-300" />
-                </div>
-                <div>
-                  <h3 className="font-semibold text-lg mb-2">Traditional development</h3>
-                  <p className="text-gray-300 text-sm">
-                    Master both traditional and cutting-edge marketing methodologies for a well-rounded education.
-                  </p>
+                  <p className="font-semibold">500+ Members</p>
+                  <p className="text-sm text-gray-300">Active Community</p>
                 </div>
               </div>
             </div>

@@ -1,6 +1,6 @@
 
 import { Card, CardContent } from "@/components/ui/card";
-import { Avatar, AvatarFallback } from "@/components/ui/avatar";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Linkedin, Mail, Users } from "lucide-react";
 
 const Team = () => {
@@ -9,25 +9,29 @@ const Team = () => {
       name: "Emily Njoki",
       role: "President",
       bio: "Leading MSA's strategic initiatives and fostering industry partnerships.",
-      initials: "EN"
+      initials: "EN",
+      image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&h=150&fit=crop&crop=face"
     },
     {
       name: "Michael Kimani",
       role: "Vice President",
       bio: "Coordinating academic programs and student development activities.",
-      initials: "MK"
+      initials: "MK",
+      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face"
     },
     {
       name: "Priscilla Auma",
       role: "Secretary",
       bio: "Managing communications and organizing community events.",
-      initials: "PA"
+      initials: "PA",
+      image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&h=150&fit=crop&crop=face"
     },
     {
       name: "Joseph Mwangi",
       role: "Treasurer",
       bio: "Overseeing financial operations and budget management.",
-      initials: "JM"
+      initials: "JM",
+      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face"
     }
   ];
 
@@ -41,7 +45,7 @@ const Team = () => {
             </div>
           </div>
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
-            Our team is your team
+            Meet Our Leadership Team
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             Meet the dedicated student leaders who make MSA a thriving community for marketing students 
@@ -54,6 +58,7 @@ const Team = () => {
             <Card key={index} className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 bg-white">
               <CardContent className="p-8 text-center">
                 <Avatar className="h-20 w-20 mx-auto mb-4">
+                  <AvatarImage src={member.image} alt={member.name} />
                   <AvatarFallback className="bg-gradient-to-r from-blue-500 to-teal-500 text-white text-xl font-bold">
                     {member.initials}
                   </AvatarFallback>

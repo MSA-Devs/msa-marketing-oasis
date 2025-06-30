@@ -69,14 +69,19 @@ const Features = () => {
           </div>
 
           <div className="relative">
-            <div className="bg-gradient-to-br from-slate-100 to-blue-50 rounded-2xl p-8 h-[500px] flex items-center justify-center">
-              <div className="text-center space-y-4">
-                <div className="w-20 h-20 bg-gradient-to-r from-blue-500 to-teal-500 rounded-full mx-auto flex items-center justify-center">
-                  <Users2 className="h-10 w-10 text-white" />
+            <img 
+              src="https://images.unsplash.com/photo-1649972904349-6e44c42644a7?w=600&h=500&fit=crop&crop=center" 
+              alt="Student working on marketing project" 
+              className="rounded-2xl shadow-2xl w-full h-[500px] object-cover"
+            />
+            <div className="absolute -bottom-6 -right-6 bg-white rounded-xl p-6 shadow-lg border">
+              <div className="text-center space-y-2">
+                <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-teal-500 rounded-full mx-auto flex items-center justify-center">
+                  <Users2 className="h-8 w-8 text-white" />
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900">MSA Community</h3>
-                <p className="text-gray-600 max-w-sm">
-                  Connect, learn, and grow with fellow marketing students and industry professionals.
+                <h3 className="text-xl font-bold text-gray-900">MSA Community</h3>
+                <p className="text-gray-600 text-sm max-w-xs">
+                  Connect, learn, and grow with fellow marketing students.
                 </p>
               </div>
             </div>
