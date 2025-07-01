@@ -90,11 +90,30 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'fadeInFloat': {
+					'0%': {
+						opacity: '0',
+						transform: 'translateY(10px) scale(0.8)'
+					},
+					'10%': {
+						opacity: '1',
+						transform: 'translateY(0) scale(1)'
+					},
+					'90%': {
+						opacity: '1',
+						transform: 'translateY(-2px) scale(1)'
+					},
+					'100%': {
+						opacity: '0',
+						transform: 'translateY(0) scale(0.8)'
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'fadeInFloat': 'fadeInFloat 3s ease-in-out infinite'
 			}
 		}
 	},

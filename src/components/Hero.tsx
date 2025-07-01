@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Play } from "lucide-react";
 
@@ -52,7 +51,7 @@ const Hero = () => {
             </div>
           </div>
 
-          {/* Right Content - Enhanced Floating Profiles with Advanced Circling Lines */}
+          {/* Right Content - Enhanced Floating Profiles with Speech Bubbles */}
           <div className="relative h-[500px] md:h-[600px] lg:h-[650px]">
             {/* Central Circle with Enhanced Stats */}
             <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-40 h-40 md:w-48 md:h-48 lg:w-56 lg:h-56 bg-white/10 backdrop-blur-md rounded-full border border-white/20 flex flex-col items-center justify-center z-30 shadow-2xl">
@@ -65,31 +64,62 @@ const Hero = () => {
               </div>
             </div>
 
-            {/* Enhanced Floating Profile Circles with Responsive Positioning */}
-            <div className="absolute top-8 md:top-16 right-12 md:right-20 w-16 h-16 md:w-20 md:h-20 bg-white/15 backdrop-blur-md rounded-full border border-white/30 overflow-hidden animate-bounce shadow-xl">
-              <img 
-                src="https://images.unsplash.com/photo-1494790108755-2616b612b605?w=80&h=80&fit=crop&crop=face" 
-                alt="Team member" 
-                className="w-full h-full object-cover"
-              />
+            {/* Enhanced Floating Profile Circles with Speech Bubbles */}
+            {/* Profile 1 with Speech Bubble */}
+            <div className="absolute top-8 md:top-16 right-12 md:right-20 group">
+              <div className="w-16 h-16 md:w-20 md:h-20 bg-white/15 backdrop-blur-md rounded-full border border-white/30 overflow-hidden animate-bounce shadow-xl">
+                <img 
+                  src="https://images.unsplash.com/photo-1494790108755-2616b612b605?w=80&h=80&fit=crop&crop=face" 
+                  alt="Team member" 
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              {/* Speech Bubble 1 */}
+              <div className="absolute -left-20 md:-left-24 top-2 md:top-4 opacity-0 animate-[fadeInFloat_3s_ease-in-out_2s_infinite] pointer-events-none">
+                <div className="relative bg-white/95 backdrop-blur-sm rounded-2xl px-3 py-2 md:px-4 md:py-3 shadow-lg border border-white/20">
+                  <p className="text-gray-800 font-inter font-medium text-xs md:text-sm whitespace-nowrap">MSA is great!</p>
+                  <div className="absolute right-0 top-1/2 transform translate-x-1 -translate-y-1/2 w-0 h-0 border-l-[6px] border-l-white/95 border-y-[6px] border-y-transparent"></div>
+                </div>
+              </div>
             </div>
 
-            <div className="absolute top-32 md:top-40 left-6 md:left-12 w-12 h-12 md:w-16 md:h-16 bg-white/15 backdrop-blur-md rounded-full border border-white/30 overflow-hidden animate-bounce delay-300 shadow-xl">
-              <img 
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=64&h=64&fit=crop&crop=face" 
-                alt="Team member" 
-                className="w-full h-full object-cover"
-              />
+            {/* Profile 2 with Speech Bubble */}
+            <div className="absolute top-32 md:top-40 left-6 md:left-12 group">
+              <div className="w-12 h-12 md:w-16 md:h-16 bg-white/15 backdrop-blur-md rounded-full border border-white/30 overflow-hidden animate-bounce delay-300 shadow-xl">
+                <img 
+                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=64&h=64&fit=crop&crop=face" 
+                  alt="Team member" 
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              {/* Speech Bubble 2 */}
+              <div className="absolute -top-8 md:-top-10 left-1/2 transform -translate-x-1/2 opacity-0 animate-[fadeInFloat_3s_ease-in-out_6s_infinite] pointer-events-none">
+                <div className="relative bg-white/95 backdrop-blur-sm rounded-2xl px-3 py-2 md:px-4 md:py-3 shadow-lg border border-white/20">
+                  <p className="text-gray-800 font-inter font-medium text-xs md:text-sm whitespace-nowrap">MSA is awesome!</p>
+                  <div className="absolute left-1/2 bottom-0 transform -translate-x-1/2 translate-y-1 w-0 h-0 border-t-[6px] border-t-white/95 border-x-[6px] border-x-transparent"></div>
+                </div>
+              </div>
             </div>
 
-            <div className="absolute bottom-32 md:bottom-40 right-6 md:right-12 w-16 h-16 md:w-20 md:h-20 bg-white/15 backdrop-blur-md rounded-full border border-white/30 overflow-hidden animate-bounce delay-500 shadow-xl">
-              <img 
-                src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=80&h=80&fit=crop&crop=face" 
-                alt="Team member" 
-                className="w-full h-full object-cover"
-              />
+            {/* Profile 3 with Speech Bubble */}
+            <div className="absolute bottom-32 md:bottom-40 right-6 md:right-12 group">
+              <div className="w-16 h-16 md:w-20 md:h-20 bg-white/15 backdrop-blur-md rounded-full border border-white/30 overflow-hidden animate-bounce delay-500 shadow-xl">
+                <img 
+                  src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=80&h=80&fit=crop&crop=face" 
+                  alt="Team member" 
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              {/* Speech Bubble 3 */}
+              <div className="absolute -left-20 md:-left-24 bottom-2 md:bottom-4 opacity-0 animate-[fadeInFloat_3s_ease-in-out_10s_infinite] pointer-events-none">
+                <div className="relative bg-white/95 backdrop-blur-sm rounded-2xl px-3 py-2 md:px-4 md:py-3 shadow-lg border border-white/20">
+                  <p className="text-gray-800 font-inter font-medium text-xs md:text-sm whitespace-nowrap">MSA is the best!</p>
+                  <div className="absolute right-0 top-1/2 transform translate-x-1 -translate-y-1/2 w-0 h-0 border-l-[6px] border-l-white/95 border-y-[6px] border-y-transparent"></div>
+                </div>
+              </div>
             </div>
 
+            {/* Other Profile Images without speech bubbles */}
             <div className="absolute bottom-12 md:bottom-20 left-12 md:left-20 w-12 h-12 md:w-14 md:h-14 bg-white/15 backdrop-blur-md rounded-full border border-white/30 overflow-hidden animate-bounce delay-700 shadow-xl">
               <img 
                 src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=56&h=56&fit=crop&crop=face" 
