@@ -64,10 +64,10 @@ const Hero = () => {
               </div>
             </div>
 
-            {/* Enhanced Floating Profile Circles with Speech Bubbles */}
-            {/* Profile 1 with Speech Bubble */}
-            <div className="absolute top-8 md:top-16 right-12 md:right-20 group">
-              <div className="w-16 h-16 md:w-20 md:h-20 bg-white/15 backdrop-blur-md rounded-full border border-white/30 overflow-hidden animate-bounce shadow-xl">
+            {/* Enhanced Floating Profile Circles with Speech Bubbles and Burst Animation */}
+            {/* Profile 1 with Speech Bubble - Burst from center */}
+            <div className="absolute top-8 md:top-16 right-12 md:right-20 group animate-[burstOut_1.2s_ease-out_0.2s_both]">
+              <div className="w-16 h-16 md:w-20 md:h-20 bg-white/15 backdrop-blur-md rounded-full border border-white/30 overflow-hidden animate-[bounce_2s_infinite_1.4s] shadow-xl">
                 <img 
                   src="https://images.unsplash.com/photo-1494790108755-2616b612b605?w=80&h=80&fit=crop&crop=face" 
                   alt="Team member" 
@@ -75,7 +75,7 @@ const Hero = () => {
                 />
               </div>
               {/* Speech Bubble 1 */}
-              <div className="absolute -left-20 md:-left-24 top-2 md:top-4 opacity-0 animate-[fadeInFloat_3s_ease-in-out_2s_infinite] pointer-events-none">
+              <div className="absolute -left-20 md:-left-24 top-2 md:top-4 opacity-0 animate-[fadeInFloat_3s_ease-in-out_3s_infinite] pointer-events-none">
                 <div className="relative bg-white/95 backdrop-blur-sm rounded-2xl px-3 py-2 md:px-4 md:py-3 shadow-lg border border-white/20">
                   <p className="text-gray-800 font-inter font-medium text-xs md:text-sm whitespace-nowrap">MSA is great!</p>
                   <div className="absolute right-0 top-1/2 transform translate-x-1 -translate-y-1/2 w-0 h-0 border-l-[6px] border-l-white/95 border-y-[6px] border-y-transparent"></div>
@@ -83,9 +83,9 @@ const Hero = () => {
               </div>
             </div>
 
-            {/* Profile 2 with Speech Bubble */}
-            <div className="absolute top-32 md:top-40 left-6 md:left-12 group">
-              <div className="w-12 h-12 md:w-16 md:h-16 bg-white/15 backdrop-blur-md rounded-full border border-white/30 overflow-hidden animate-bounce delay-300 shadow-xl">
+            {/* Profile 2 with Speech Bubble - Burst from center */}
+            <div className="absolute top-32 md:top-40 left-6 md:left-12 group animate-[burstOut_1.2s_ease-out_0.4s_both]">
+              <div className="w-12 h-12 md:w-16 md:h-16 bg-white/15 backdrop-blur-md rounded-full border border-white/30 overflow-hidden animate-[bounce_2s_infinite_1.6s] shadow-xl">
                 <img 
                   src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=64&h=64&fit=crop&crop=face" 
                   alt="Team member" 
@@ -93,7 +93,7 @@ const Hero = () => {
                 />
               </div>
               {/* Speech Bubble 2 */}
-              <div className="absolute -top-8 md:-top-10 left-1/2 transform -translate-x-1/2 opacity-0 animate-[fadeInFloat_3s_ease-in-out_6s_infinite] pointer-events-none">
+              <div className="absolute -top-8 md:-top-10 left-1/2 transform -translate-x-1/2 opacity-0 animate-[fadeInFloat_3s_ease-in-out_7s_infinite] pointer-events-none">
                 <div className="relative bg-white/95 backdrop-blur-sm rounded-2xl px-3 py-2 md:px-4 md:py-3 shadow-lg border border-white/20">
                   <p className="text-gray-800 font-inter font-medium text-xs md:text-sm whitespace-nowrap">MSA is awesome!</p>
                   <div className="absolute left-1/2 bottom-0 transform -translate-x-1/2 translate-y-1 w-0 h-0 border-t-[6px] border-t-white/95 border-x-[6px] border-x-transparent"></div>
@@ -101,9 +101,9 @@ const Hero = () => {
               </div>
             </div>
 
-            {/* Profile 3 with Speech Bubble */}
-            <div className="absolute bottom-32 md:bottom-40 right-6 md:right-12 group">
-              <div className="w-16 h-16 md:w-20 md:h-20 bg-white/15 backdrop-blur-md rounded-full border border-white/30 overflow-hidden animate-bounce delay-500 shadow-xl">
+            {/* Profile 3 with Speech Bubble - Burst from center */}
+            <div className="absolute bottom-32 md:bottom-40 right-6 md:right-12 group animate-[burstOut_1.2s_ease-out_0.6s_both]">
+              <div className="w-16 h-16 md:w-20 md:h-20 bg-white/15 backdrop-blur-md rounded-full border border-white/30 overflow-hidden animate-[bounce_2s_infinite_1.8s] shadow-xl">
                 <img 
                   src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=80&h=80&fit=crop&crop=face" 
                   alt="Team member" 
@@ -111,7 +111,7 @@ const Hero = () => {
                 />
               </div>
               {/* Speech Bubble 3 */}
-              <div className="absolute -left-20 md:-left-24 bottom-2 md:bottom-4 opacity-0 animate-[fadeInFloat_3s_ease-in-out_10s_infinite] pointer-events-none">
+              <div className="absolute -left-20 md:-left-24 bottom-2 md:bottom-4 opacity-0 animate-[fadeInFloat_3s_ease-in-out_11s_infinite] pointer-events-none">
                 <div className="relative bg-white/95 backdrop-blur-sm rounded-2xl px-3 py-2 md:px-4 md:py-3 shadow-lg border border-white/20">
                   <p className="text-gray-800 font-inter font-medium text-xs md:text-sm whitespace-nowrap">MSA is the best!</p>
                   <div className="absolute right-0 top-1/2 transform translate-x-1 -translate-y-1/2 w-0 h-0 border-l-[6px] border-l-white/95 border-y-[6px] border-y-transparent"></div>
@@ -119,8 +119,8 @@ const Hero = () => {
               </div>
             </div>
 
-            {/* Other Profile Images without speech bubbles */}
-            <div className="absolute bottom-12 md:bottom-20 left-12 md:left-20 w-12 h-12 md:w-14 md:h-14 bg-white/15 backdrop-blur-md rounded-full border border-white/30 overflow-hidden animate-bounce delay-700 shadow-xl">
+            {/* Other Profile Images with Burst Animation */}
+            <div className="absolute bottom-12 md:bottom-20 left-12 md:left-20 w-12 h-12 md:w-14 md:h-14 bg-white/15 backdrop-blur-md rounded-full border border-white/30 overflow-hidden animate-[burstOut_1.2s_ease-out_0.8s_both,bounce_2s_infinite_2s] shadow-xl">
               <img 
                 src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=56&h=56&fit=crop&crop=face" 
                 alt="Team member" 
@@ -128,7 +128,7 @@ const Hero = () => {
               />
             </div>
 
-            <div className="absolute top-16 md:top-24 left-28 md:left-40 w-10 h-10 md:w-12 md:h-12 bg-white/15 backdrop-blur-md rounded-full border border-white/30 overflow-hidden animate-bounce delay-1000 shadow-xl">
+            <div className="absolute top-16 md:top-24 left-28 md:left-40 w-10 h-10 md:w-12 md:h-12 bg-white/15 backdrop-blur-md rounded-full border border-white/30 overflow-hidden animate-[burstOut_1.2s_ease-out_1s_both,bounce_2s_infinite_2.2s] shadow-xl">
               <img 
                 src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=48&h=48&fit=crop&crop=face" 
                 alt="Team member" 
@@ -136,7 +136,7 @@ const Hero = () => {
               />
             </div>
 
-            <div className="absolute bottom-24 md:bottom-32 left-28 md:left-40 w-14 h-14 md:w-18 md:h-18 bg-white/15 backdrop-blur-md rounded-full border border-white/30 overflow-hidden animate-bounce delay-1200 shadow-xl">
+            <div className="absolute bottom-24 md:bottom-32 left-28 md:left-40 w-14 h-14 md:w-18 md:h-18 bg-white/15 backdrop-blur-md rounded-full border border-white/30 overflow-hidden animate-[burstOut_1.2s_ease-out_1.2s_both,bounce_2s_infinite_2.4s] shadow-xl">
               <img 
                 src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=72&h=72&fit=crop&crop=face" 
                 alt="Team member" 
@@ -144,7 +144,7 @@ const Hero = () => {
               />
             </div>
 
-            <div className="absolute top-36 md:top-48 right-28 md:right-40 w-12 h-12 md:w-16 md:h-16 bg-white/15 backdrop-blur-md rounded-full border border-white/30 overflow-hidden animate-bounce delay-1500 shadow-xl">
+            <div className="absolute top-36 md:top-48 right-28 md:right-40 w-12 h-12 md:w-16 md:h-16 bg-white/15 backdrop-blur-md rounded-full border border-white/30 overflow-hidden animate-[burstOut_1.2s_ease-out_1.4s_both,bounce_2s_infinite_2.6s] shadow-xl">
               <img 
                 src="https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=64&h=64&fit=crop&crop=face" 
                 alt="Team member" 
