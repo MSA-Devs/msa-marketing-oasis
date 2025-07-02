@@ -75,9 +75,10 @@ const Hero = () => {
                 />
               </div>
               {/* Speech Bubble 1 */}
-              <div className="absolute -left-20 md:-left-24 top-2 md:top-4 opacity-0 animate-[fadeInFloat_3s_ease-in-out_3s_infinite] pointer-events-none">
+              <div className="absolute -left-24 md:-left-32 top-2 md:top-4 opacity-0 animate-[fadeInFloat_3s_ease-in-out_3s_infinite] pointer-events-none">
                 <div className="relative bg-white/95 backdrop-blur-sm rounded-2xl px-3 py-2 md:px-4 md:py-3 shadow-lg border border-white/20">
-                  <p className="text-gray-800 font-inter font-medium text-xs md:text-sm whitespace-nowrap">MSA is great!</p>
+                  <p className="text-gray-800 font-inter font-medium text-xs md:text-sm whitespace-nowrap">"MSA is great!"</p>
+                  <p className="text-gray-600 font-inter text-xs mt-1 whitespace-nowrap">— Sarah M., Digital Strategist</p>
                   <div className="absolute right-0 top-1/2 transform translate-x-1 -translate-y-1/2 w-0 h-0 border-l-[6px] border-l-white/95 border-y-[6px] border-y-transparent"></div>
                 </div>
               </div>
@@ -93,9 +94,10 @@ const Hero = () => {
                 />
               </div>
               {/* Speech Bubble 2 */}
-              <div className="absolute -top-8 md:-top-10 left-1/2 transform -translate-x-1/2 opacity-0 animate-[fadeInFloat_3s_ease-in-out_7s_infinite] pointer-events-none">
+              <div className="absolute -top-12 md:-top-16 left-1/2 transform -translate-x-1/2 opacity-0 animate-[fadeInFloat_3s_ease-in-out_7s_infinite] pointer-events-none">
                 <div className="relative bg-white/95 backdrop-blur-sm rounded-2xl px-3 py-2 md:px-4 md:py-3 shadow-lg border border-white/20">
-                  <p className="text-gray-800 font-inter font-medium text-xs md:text-sm whitespace-nowrap">MSA is awesome!</p>
+                  <p className="text-gray-800 font-inter font-medium text-xs md:text-sm whitespace-nowrap">"MSA is awesome!"</p>
+                  <p className="text-gray-600 font-inter text-xs mt-1 whitespace-nowrap">— Marcus T., Brand Manager</p>
                   <div className="absolute left-1/2 bottom-0 transform -translate-x-1/2 translate-y-1 w-0 h-0 border-t-[6px] border-t-white/95 border-x-[6px] border-x-transparent"></div>
                 </div>
               </div>
@@ -111,9 +113,10 @@ const Hero = () => {
                 />
               </div>
               {/* Speech Bubble 3 */}
-              <div className="absolute -left-20 md:-left-24 bottom-2 md:bottom-4 opacity-0 animate-[fadeInFloat_3s_ease-in-out_11s_infinite] pointer-events-none">
+              <div className="absolute -left-24 md:-left-32 bottom-2 md:bottom-4 opacity-0 animate-[fadeInFloat_3s_ease-in-out_11s_infinite] pointer-events-none">
                 <div className="relative bg-white/95 backdrop-blur-sm rounded-2xl px-3 py-2 md:px-4 md:py-3 shadow-lg border border-white/20">
-                  <p className="text-gray-800 font-inter font-medium text-xs md:text-sm whitespace-nowrap">MSA is the best!</p>
+                  <p className="text-gray-800 font-inter font-medium text-xs md:text-sm whitespace-nowrap">"MSA is the best!"</p>
+                  <p className="text-gray-600 font-inter text-xs mt-1 whitespace-nowrap">— Elena R., Creative Director</p>
                   <div className="absolute right-0 top-1/2 transform translate-x-1 -translate-y-1/2 w-0 h-0 border-l-[6px] border-l-white/95 border-y-[6px] border-y-transparent"></div>
                 </div>
               </div>
